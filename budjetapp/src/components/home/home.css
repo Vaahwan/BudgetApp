@@ -1,0 +1,122 @@
+
+
+
+html body{
+    background-color: aliceblue;
+}
+
+
+.container{
+    /* height: 90vh; */
+    /* width: 100vw; */
+    background-color: aliceblue;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid red; */
+    /* margin-top: 100px; */
+}
+
+.inputContainer{
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    width: 50%;
+    /* margin: auto; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: white;
+    /* position: relative;
+    top: 10%; */
+    align-self: flex-start;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#myDateInput{
+    width: 70%;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 12px;
+    border: 1px solid mediumaquamarine;
+    color: black;
+}
+
+#amountInput{
+    width: 70%;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 12px;
+    border: 1px solid mediumaquamarine;
+}
+
+.select{
+    width: 70%;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 6px;
+    border: 1px solid mediumaquamarine;
+    /* z-index: -1; */
+}
+
+.btn{
+    border: 1px solid mediumaquamarine;
+    padding: 12px 48px;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumaquamarine;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.btn:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: black;
+    background-color: white;
+}
+
+.outputContainer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expenseTable{
+    width: 90vw;
+    padding: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+thead{
+    background-color: mediumaquamarine;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+th{
+    padding: 6px;
+    /* border-radius: 12px; */
+}
+
+.expenseTotalRow{
+    color: mediumaquamarine;
+    font-size: 24px;
+}
+
+.viewDetailbtn{
+    margin: 20px 0px 20px 0px;
+}
+
+/* .expenseTotalHead{
+    background-color: mediumaquamarine;
+} */
